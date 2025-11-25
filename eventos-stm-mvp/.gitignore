@@ -1,0 +1,34 @@
+# Compiled output
+/dist/
+/tmp/
+/out/
+
+# Dependencies
+/node_modules/
+
+# IDEs and other local files
+.idea/
+.vscode/
+*.iml
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+.env.local
+.env.*.local
+.npmrc
+.yarn/
+.yarn-integrity
+.vuepress/dist
+.cache
+.temp
+.output
+# Vetur & Volar for VSCode
+.vscode/vetur/
+.vscode/__VLS_cache/
