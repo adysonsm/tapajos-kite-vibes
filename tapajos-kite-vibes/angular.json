@@ -58,6 +58,14 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "github-pages": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractLicenses": true,
+              "outputMode": "static",
+              "baseHref": "/tapajos-kite-vibes/"
             }
           },
           "defaultConfiguration": "production"

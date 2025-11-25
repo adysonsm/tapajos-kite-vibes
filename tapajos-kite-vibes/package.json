@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:gh-pages": "ng build --configuration=github-pages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:tapajos-kite-vibes": "node dist/tapajos-kite-vibes/server/server.mjs"
+    "serve:ssr:tapajos-kite-vibes": "node dist/tapajos-kite-vibes/server/server.mjs",
+    "deploy:gh-pages": "npm run build:gh-pages && npx angular-cli-ghpages --dir=dist/tapajos-kite-vibes/browser"
   },
   "prettier": {
     "printWidth": 100,
@@ -42,6 +44,7 @@
     "@angular/compiler-cli": "^21.0.0",
     "@types/express": "^5.0.1",
     "@types/node": "^20.17.19",
+    "angular-cli-ghpages": "^2.0.1",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
